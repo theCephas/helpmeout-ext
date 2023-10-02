@@ -1,0 +1,125 @@
+.body {
+        width: 25rem;
+        padding: 15px 10px;
+
+}
+
+.header {
+        display: flex;
+        justify-content: space-between;
+}
+
+.icons {
+        padding-top: 4px;
+}
+
+.icons>.icon1 {
+        padding-right: 12px;
+}
+
+.p1 {
+        color: #413c6d;
+        font-weight: bold;
+        width: 190px;
+        font-size: 14px;
+}
+
+.demos {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 10px;
+}
+
+.demo>p {
+        font-weight: bolder;
+        text-align: center;
+}
+
+.screen {
+        color: #928fab;
+}
+
+.tab {
+        color: #120b48;
+}
+
+.button-box {
+        width: 50px;
+        margin: 18px 10px;
+        position: relative;
+        border-radius: 30px;
+        background: #120b48;
+        cursor: pointer;
+}
+
+.toggle-btn {
+        width: 120px;
+        cursor: pointer;
+        background: transparent;
+        border: 0;
+        outline: none;
+        position: relative;
+        text-align: center;
+}
+
+#btn {
+        left: 0px;
+        top: 0;
+        position: absolute;
+        width: 25px;
+        height: 100%;
+        background: white;
+        border-radius: 50%;
+        transition: .5s;
+}
+
+#btn2 {
+        left: 0px;
+        top: 0;
+        position: absolute;
+        width: 25px;
+        height: 100%;
+        background: white;
+        border-radius: 50%;
+        transition: .5s;
+}
+
+.camera {
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid;
+        border-radius: 20px;
+        margin-bottom: 15px;
+}
+
+.cam1 {
+        display: flex;
+        padding: 12px 0px 10px 15px;
+}
+
+.cam1>p {
+        font-size: 11px;
+        color: #120b48;
+        font-weight: bold;
+}
+
+.cam1>img {
+        padding-right: 15px;
+}
+
+.last-btn {
+        background: #120b48;
+        color: white;
+        font-size: 13px;
+        font-weight: 800;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        border: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-bottom: 10px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./popup.css" />
+    <script defer src="./js/popup.js"></script>
+    <title>HelpMeOut</title>
+  </head>
+  <body id="body">
+    <div class="body" id="bodyMainInner">
+    
+      <div class="header">
+        <img src="./images/exlogo.svg" alt="Logo Icon" />
+        <div class="icons">
+          <img class="icon1" src="./images/setting-2.svg" alt="Settings Icon" />
+          <img src="./images/close-circle.svg" id="close" alt="Close Icon" />
+        </div>
+      </div>
+
+      <p class="p1">
+        This extension helps you record and share help videos with ease.
+      </p>
+
+      <div class="demos">
+        <div class="demo">
+          <img src="./images/monitor.svg" alt="Monitor" />
+          <p class="screen">Full screen</p>
+        </div>
+        <div class="demo">
+          <img src="./images/copy.svg" alt="Tab" />
+          <p class="tab">Current Tab</p>
+        </div>
+      </div>
+
+      <div class="camera">
+        <div class="cam1">
+          <img
+            src="./images/device-camera-video-svgrepo-com.svg"
+            alt="Camera"
+          />
+          <p>Camera</p>
+        </div>
+        <div class="form-box">
+          <div class="button-box">
+            <div id="btn"></div>
+            <button
+              type="button"
+              class="toggle-btn"
+              id="toggle-btn-left"
+            ></button>
+            <button
+              type="button"
+              class="toggle-btn"
+              id="toggle-btn-right"
+            ></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="camera">
+        <div class="cam1">
+          <img
+            src="./images/microphone-svgrepo-com.svg"
+            alt="Microphone"
+          />
+          <p>Audio</p>
+        </div>
+        <div class="form-box2">
+          <div class="button-box">
+            <div id="btn2"></div>
+            <button
+              type="button"
+              class="toggle-btn"
+              id="toggle-btn-left2"
+            ></button>
+            <button
+              type="button"
+              class="toggle-btn"
+              id="toggle-btn-right2"
+            ></button>
+          </div>
+        </div>
+      </div>
+      
+      <button class="last-btn" id="startVideo">Start Recording</button>
+      <!-- <button id="stopVideo" class="last-btn">Download Recorded Video</button> -->
+    </div>
+    
+  </body>
+</html>
